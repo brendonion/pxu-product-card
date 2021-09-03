@@ -25,7 +25,7 @@ function ProductCard({ title, image, price, rating }) {
                 </button>
             </div>
             <div className="flex flex-col items-center">
-                <p className="text-gray-800">{title}</p>
+                <p className="text-center text-gray-800">{title}</p>
                 <p className="mb-3 text-gray-600">{price}</p>
                 <span className="flex justify-center">
                     {filledStars.map((_, i) => (

@@ -26,3 +26,7 @@ html {
   @apply absolute inset-0 m-auto px-6 py-1.5 bg-gradient-to-t from-blue-800 to-blue-500 text-white rounded transition-all opacity-0;
   height: fit-content;
 }
+
+.product-card__btn:hover {
+  @apply shadow-lg;
+}

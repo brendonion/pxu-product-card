@@ -3,14 +3,14 @@ import ProductCard from "./ProductCard";
 
 function App() {
   return (
-    <div className="flex items-center justify-center space-x-4 my-16">
+    <main className="flex items-center justify-center space-x-4 h-screen">
       {FAKE_DATA.map(({ id, ...rest }) => (
           <ProductCard
             key={id}
             {...rest}
           />
       ))}
-    </div>
+    </main>
   );
 }
 

@@ -25,3 +25,7 @@ In the project directory, you can run:
 
 - Created ProductCard component using basic html + tailwind styles
 - Added fake data and simplified codebase
+
+### step-1-touchups
+
+- Added extra touchups
