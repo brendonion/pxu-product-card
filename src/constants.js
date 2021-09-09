@@ -4,26 +4,13 @@ import shirt3 from "./assets/shirt-3.jpg";
 
 export const MAX_STARS = 5;
 
-export const FAKE_DATA = [
-  {
-    id: 1,
-    title: "Ultrafine Merino T-Shirt",
-    image: shirt1,
-    price: "$80.00",
-    rating: 4,
-  },
-  {
-    id: 2,
-    title: "Ultrafine Merino T-Shirt Variant 2",
-    image: shirt2,
-    price: "$78.00",
-    rating: 3,
-  },
-  {
-    id: 3,
-    title: "Ultrafine Merino T-Shirt Variant 3",
-    image: shirt3,
-    price: "$85.00",
-    rating: 4,
-  }
-];
+export const FAKE_DATA = {
+  id: 1,
+  title: "Ultrafine Merino T-Shirt",
+  variants: [
+    { image: shirt1, price: "$80.00", color: "blue" },
+    { image: shirt2, price: "$75.00", color: "gray" },
+    { image: shirt3, price: "$90.00", color: "orange" },
+  ],
+  rating: 4,
+};

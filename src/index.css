@@ -18,6 +18,18 @@ html {
   @apply opacity-100;
 }
 
+.product-card.product-card--sold-out .product-card__img {
+  @apply opacity-100;
+}
+
+.product-card.product-card--sold-out .product-card__title {
+  @apply line-through opacity-50;
+}
+
+.product-card.product-card--sold-out .product-card__price {
+  @apply opacity-50;
+}
+
 .product-card__img {
   @apply transition-all opacity-100;
 }
@@ -29,4 +41,32 @@ html {
 
 .product-card__btn:hover {
   @apply shadow-lg;
+}
+
+.product-card__title {
+  @apply text-center text-gray-800;
+}
+
+.product-card__price {
+  @apply mb-3 text-gray-600;
+}
+
+.product-card__badge {
+  @apply absolute bottom-0 left-0 flex justify-center items-center w-12 h-12 bg-yellow-500 rounded-full text-center;
+}
+
+.product-card__badge span {
+  @apply text-xs text-white font-bold;
+}
+
+.product-card__swatch-btn {
+  @apply flex items-center justify-center w-5 h-5;
+}
+
+.product-card__swatch-btn--active {
+  @apply border border-black;
+}
+
+.product-card__swatch-btn__color {
+  @apply block w-4 h-4;
 }
